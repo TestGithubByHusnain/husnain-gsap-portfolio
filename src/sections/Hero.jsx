@@ -7,7 +7,7 @@ const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   const text = `I help growing brands and startups gain an
 unfair advantage through premium
-results driven webs/apps`;
+results driven web apps`;
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
