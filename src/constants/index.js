@@ -7,37 +7,19 @@ export const servicesData = [
     items: [
       {
         title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        description: "(REST APIs, Auth Systems)",
       },
       {
         title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        description: "(React, TypeScript, Interactive UI/UX)",
       },
       {
         title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        description: "(NoSQL Optimization, Scalable Structures)",
       },
     ],
   },
-  {
-    title: "DevOps & Cloud Solutions",
-    description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
-    items: [
-      {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
-      },
-      {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
-      },
-      {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
-      },
-    ],
-  },
+
   {
     title: "Security & Optimization",
     description:
@@ -58,14 +40,11 @@ export const servicesData = [
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Website Development",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect websites that users love—bridging design and functionality seamlessly.",
     items: [
-      {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
-      },
+     
       {
         title: "PWAs",
         description: "(Offline mode, Push Notifications)",
@@ -78,98 +57,101 @@ export const servicesData = [
   },
 ];
 export const projects = [
+ {
+  id: 1,
+  name: "AI-Interview-Agent",
+  description:
+    "Preparation for your interview — a prep-wise AI agent built to help you get ready for interviews effectively.",
+  href: "",
+  image: "/assets/projects/ai-interview-agent.jpg",
+  bgImage: "/assets/backgrounds/blanket.jpg",
+  frameworks: [
+    { id: 1, name: "React" },
+    { id: 2, name: "TailwindCss" },
+    { id: 3, name: "ZOD" },
+    { id: 4, name: "Firebase" },
+    { id: 5, name: "VapiAi" },
+  ],
+},
+{
+  id: 2,
+  name: "Mern E-commerce with Admin and Analytics Dashboard",
+  description:
+    "A full-stack MERN e-commerce platform featuring a powerful admin panel, real-time analytics, Stripe payments, and a sleek, intuitive user experience.",
+  href: "",
+  image: "/assets/projects/mern-ecom.jpg",
+  bgImage: "/assets/backgrounds/curtains.jpg",
+  frameworks: [
+    { id: 1, name: "React" },
+    { id: 2, name: "Mern Stack" },
+    { id: 3, name: "Stripe API" },
+    { id: 4, name: "Zustand & Recharts" },
+  ],
+},
+
+ {
+  id: 3,
+  name: "Mern Chat-App",
+  description:
+    "A real-time chat application built with the MERN stack, featuring instant messaging, media uploads via Cloudinary, and seamless communication using Socket.io.",
+  href: "",
+  image: "/assets/projects/mern-chat-app.jpg",
+  bgImage: "/assets/backgrounds/map.jpg",
+  frameworks: [
+    { id: 1, name: "Mern Stack" },
+    { id: 2, name: "Cloudinary" },
+    { id: 3, name: "Socket.io" },
+    { id: 4, name: "TailwindCss" },
+  ],
+},
+{
+  id: 4,
+  name: "Iphone 15 & 15 Pro Max",
+  description:
+    "A high-end iPhone 15 & 15 Pro Max showcase with smooth animations, 3D iPhone model interaction for choosing colors and sizes, and a visually immersive experience using GSAP and Three.js.",
+  href: "",
+  image: "/assets/projects/iphone.jpg",
+  bgImage: "/assets/backgrounds/poster.jpg",
+  frameworks: [
+    { id: 1, name: "React.js" },
+    { id: 2, name: "Gsap and three.js" },
+    { id: 3, name: "Sentry" },
+    { id: 4, name: "TailwindCss" },
+  ],
+},
+
   {
-    id: 1,
-    name: "Mobile Accessories E-commerce",
-    description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
-    href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
-    bgImage: "/assets/backgrounds/blanket.jpg",
-    frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
-    ],
-  },
-  {
-    id: 2,
-    name: "Plant Shop E-commerce",
-    description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
-    href: "",
-    image: "/assets/projects/plant-shop.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
-    ],
-  },
-  {
-    id: 3,
-    name: "Apple Tech Marketplace",
-    description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
-    href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
-    bgImage: "/assets/backgrounds/map.jpg",
-    frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
-    ],
-  },
-  {
-    id: 4,
-    name: "Electronics & Gadgets Store",
-    description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/electronics-store.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
-    frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
-    ],
-  },
-  {
-    id: 5,
-    name: "Home Decor Marketplace",
-    description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
-    href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
-    frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
-    ],
-  },
-];
+  id: 5,
+  name: "Brainwave",
+  description:
+    "Explore the possibilities of AI chatting with Brainwave. Unleash the power of AI and boost your productivity with this sleek, open AI chat app.",
+  href: "",
+  image: "/assets/projects/brainwave.jpg",
+  bgImage: "/assets/backgrounds/table.jpg",
+  frameworks: [
+    { id: 1, name: "Vite" },
+    { id: 2, name: "React-Just-Parallax" },
+    { id: 3, name: "React.js" },
+    { id: 4, name: "TailwindCss" },
+  ],
+},
+
+ {
+  id: 6,
+  name: "Ai-Content-Generator",
+  description:
+    "An AI-powered content generator built with Next.js to create blogs, code snippets, and ideas using OpenAI — fast, sleek, and productivity-focused.",
+  href: "",
+  image: "/assets/projects/ai-content.jpg",
+  bgImage: "/assets/backgrounds/curtains.jpg",
+  frameworks: [
+    { id: 1, name: "Next.js" },
+    { id: 2, name: "Sonner" },
+    { id: 3, name: "Drizzle ORM" },
+    { id: 4, name: "TailwindCss" },
+  ],
+}
+]
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
   {
